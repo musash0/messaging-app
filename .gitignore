@@ -1,0 +1,16 @@
+# Maven build output
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Local overrides / secrets
+application-local.yml
+.env
+
+# Logs
+*.log
