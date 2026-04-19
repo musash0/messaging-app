@@ -11,5 +11,8 @@ package com.sporty.domain;
  * @param eventName     human-readable name of the event, preserved for logging/audit
  * @param eventWinnerId identifier of the winning side / competitor in this event
  */
-public record EventOutcome(Long eventId, String eventName, Long eventWinnerId) {
+public record EventOutcome(
+        Long eventId,
+        String eventName,
+        Long eventWinnerId) {
 }

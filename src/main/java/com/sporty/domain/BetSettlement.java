@@ -26,6 +26,5 @@ public record BetSettlement(
         Long userId,
         Long eventId,
         BetStatus outcome,
-        BigDecimal payout
-) {
+        BigDecimal payout) {
 }
